@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="/static/css/istyle.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">Pneumonia Detection</a></h2>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+            <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </label>
+       
+        <div class="buttons">
+         
+          <a href="{{ url_for('signup') }}" class="signin&up">Sign Up</a>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section">
+      <div class="hero">
+        <h2>Pneumonia Disease Detecting using X-rays</h2>
+        <p>
+           
+Pneumonia detection refers to the process of identifying the presence of pneumonia,<br>
+a respiratory infection that inflames the air sacs in one or both lungs, <br>
+typically caused by bacterial, viral, or fungal infections.  <br>
+Pneumonia detection can be performed through various methods,  <br>
+including clinical assessment,  <br>
+medical imaging techniques such as chest X-rays or CT scans, laboratory tests, and physical examinations. <br>
+<br>
+Login Required <br>
+To access this feature, you must first log in to your account. <br>
+
+        </p>
+        <div class="buttons">
+         
+        </div>
+      </div>
+      <div class="img">
+        <img src="\static\images\backpage1.jpg" alt="hero image" />
+      </div>
+    </section>
+  </body>
+</html>
