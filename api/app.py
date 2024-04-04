@@ -20,7 +20,7 @@ class User(db.Model):
     password = db.Column(db.String(100), nullable=False)
     phone_number = db.Column(db.String(15), nullable=False)
 
-MODEL_PATH = r'E:\SrikanthFINALPROJECT\ProjectPD\static\models\model.h5'
+MODEL_PATH = r'api/static/models/model.h5'
 
 def load_model_and_predict(image_file, model_path):
     # Load the pre-trained model
